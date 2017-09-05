@@ -29,17 +29,8 @@
                                 <color key="textColor" red="1" green="0.15208706590000001" blue="0.19915747640000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5l-Wa-dTD">
-                                <rect key="frame" x="177" y="150" width="182" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Show Another Message"/>
-                                <connections>
-                                    <action selector="showAnotherMessageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IC9-He-9Um"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6E-G1-liU">
-                                <rect key="frame" x="16" y="150" width="116" height="33"/>
+                                <rect key="frame" x="129" y="150" width="116" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Show Message"/>
