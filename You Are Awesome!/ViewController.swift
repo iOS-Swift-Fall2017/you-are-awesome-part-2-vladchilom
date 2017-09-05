@@ -25,14 +25,29 @@ class ViewController: UIViewController {
                     "When the Genius Bar needs help, they call you!",
                     "You Brighten My Day!",
                     "You Are Da Bomb!",
-                    "I can't wait to use your app!"]
+                    "I can't wait to use your app!",
+                    "Fabulous? That's You!"]
     
+    var newIndex = -1
+    
+    repeat {
+      newIndex = Int(arc4random_uniform(UInt32(messages.count)))
+    } while index == newIndex
+    
+    index = newIndex
+    messageLabel.text = messages[index]
+    
+    // var randomIndex = Int(arc4random_uniform(UInt32(messages.count)))
+    // messageLabel.text = messages[randomIndex]
+    
+    /*
     messageLabel.text = messages[index]
     index += 1
     
     if index == messages.count {
       index = 0
     }
+     */
     
 //    let message1 = "You Are Fantastic!!!!"
 //    let message2 = "You Are Great!"
